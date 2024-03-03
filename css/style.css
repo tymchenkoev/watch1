@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100px;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+}
+
+
+ul {
+   padding: 0;
+   margin: 0;
+}
+
+ul>li {
+   list-style: none;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+p{
+    margin: 0;
+ }
+
+
+.img {
+   width: 100%;
+}
+
+ .wrapper {
+    min-height: 100%;
+ }
+
+
+ .header {
+    background: #F8F8F8;
+    min-height: 900px;
+    padding-bottom: 168px;
+ }
+
+ .container {
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+
+
+
+ .header__desc {
+    padding-top: 110px;
+    max-width: 630px;
+    margin-right: 33px;
+ }
+
+
+.suptitle {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+
+
+ .header__suptitle {
+    color: #161515;
+    margin-bottom: 53px;
+ }
+
+ .title {
+color: #272727;
+font-size: 250px;
+font-weight: 300;
+line-height: 1;
+margin-bottom: 20px;
+ }
+
+ .header__text {
+    color: #161515;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+    margin-bottom: 51px;
+ }
+
+.buy {
+display: flex;
+
+}
+
+
+
+.buy__link {
+    display: inline-block;
+    background-color: #161515;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+line-height: 1;
+padding: 25px 73px;
+}
+
+.buy__price {
+   background: #FFF;
+   box-shadow: opx 0px 28px 0px rgba(214, 214, 214, 0.25) ;
+padding: 16px 28px;
+color: #272727;
+text-align: center;
+font-size: 32px;
+font-weight: 300;
+display: flex;
+align-items: center;
+}
+
+.header__container {
+   display: flex;
+}
+
+.header__img-wrap {
+   width: 408px;
+}
+
+
+.products {
+   text-align: center;
+   padding: 43px 0px 142px;
+}
+
+
+.products__content {
+   max-width: 530px;
+   margin: 0 auto;
+}
+
+
+
+
+.products__suptitle {
+   color: rgb(0, 0, 0);
+   margin-bottom: 10px;
+}
+
+
+.subtitle {
+   color: rgb(0, 0, 0);
+   font-size: 72px;
+   font-weight: 400;
+margin-bottom: 84px;
+}
+
+
+.products__list {
+max-width: 531px;
+}
+
+
+
+.product {
+margin-bottom: 85px;
+}
+
+
+
+
+.product__img-wrap {
+max-width: 496px;
+height: 630px;
+background-color: rgb(248, 248, 248);
+
+}
+
+
+
+.product__img {
+object-fit: contain;
+width: 100%;
+height: 100%;
+}
+
+
+
+.product__desc {
+
+}
+
+.product__title {
+
+}
+
+
+
+.product__text{
+
+}
+
+
+
